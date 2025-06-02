@@ -12,7 +12,7 @@ const helperToolRoute = require("./routes/helperToolRoute");
 const favoriteRoute = require("./routes/favoriteRoute");
 // cors and Error
 const cors = require("cors");
-const ApiError = require("./utils/apiError");
+const ApiError = require("./Utils/apiError");
 const globalErrorHandler = require("./controllers/errorController");
 
 // security package
