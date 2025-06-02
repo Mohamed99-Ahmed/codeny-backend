@@ -1,7 +1,7 @@
 const Favorite = require("../models/favoriteModel");
-const catchAsync = require("../utils/catchAsync");
+const catchAsync = require("../Utils/catchAsync");
 const factory = require("./handlerFactory");
-const ApiError = require("../utils/apiError");
+const ApiError = require("../Utils/apiError");
 const httpStataus = require("../Utils/httpStatusText");
 
 // Use factory methods for standard CRUD operations

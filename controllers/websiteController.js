@@ -1,12 +1,5 @@
 const Website = require("../models/websiteModel");
 const factory = require("./handlerFactory");
-const multer = require('multer');
-const imagekit = require('../utils/imagekit');
-const streamifier = require('streamifier');
-const catchAsync = require('../utils/catchAsync');
-const ApiError = require('../utils/apiError');
-const httpStataus = require('../Utils/httpStatusText');
-
 // Use factory methods for standard CRUD operations
 exports.getAllWebsites = factory.getAll(Website);
 exports.getSingleWebsite = factory.getOne(Website);

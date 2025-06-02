@@ -1,8 +1,8 @@
-const catchAsync = require("../utils/catchAsync");
+const catchAsync = require("../Utils/catchAsync");
 const { User } = require("../models/usersModel");
 const { promisify } = require("util");
 const jwt = require("jsonwebtoken");
-const ApiError = require("../utils/apiError");
+const ApiError = require("../Utils/apiError");
 const sendEmail = require("../utils/email");
 const crypto = require("crypto");
 // create Send Token

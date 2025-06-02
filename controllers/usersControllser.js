@@ -1,9 +1,9 @@
 const { User } = require("../models/usersModel");
 const factory = require("./handlerFactory");
 const multer = require("multer");
-const ApiError = require("../utils/apiError");
-const catchAsync = require("../utils/catchAsync");
-const imagekit = require("../utils/imagekit");
+const ApiError = require("../Utils/apiError");
+const catchAsync = require("../Utils/catchAsync");
+const imagekit = require("../Utils/imagekit");
 const streamifier = require("streamifier"); // لتحويل Buffer إلى Stream
  /*  */
  const filterObj = (obj, ...allowedFields) => {

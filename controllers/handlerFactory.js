@@ -1,11 +1,10 @@
 // getBurgers from database
-const apiFeatures = require("../utils/apiFeatures");
-const catchAsync = require("../utils/catchAsync");
-const ApiError = require("../utils/apiError");
-const { Model } = require("mongoose");
+const apiFeatures = require("../Utils/apiFeatures");
+const catchAsync = require("../Utils/catchAsync");
+const ApiError = require("../Utils/apiError");
 const httpStataus = require("../Utils/httpStatusText")
 const multer = require("multer");
-const imagekit = require("../utils/imagekit");
+const imagekit = require("../Utils/imagekit");
 const streamifier = require("streamifier");
 
 //  createOne document function
