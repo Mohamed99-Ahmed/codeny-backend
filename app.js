@@ -1,4 +1,5 @@
 /* eslint-disable no-undef */
+// @ts-nocheck
 const express = require("express");
 const app = express();
 // routes

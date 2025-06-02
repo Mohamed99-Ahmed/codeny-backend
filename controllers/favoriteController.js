@@ -2,7 +2,7 @@ const Favorite = require("../models/favoriteModel");
 const catchAsync = require("../utils/catchAsync");
 const factory = require("./handlerFactory");
 const ApiError = require("../utils/apiError");
-const httpStataus = require("../utils/httpStatusText");
+const httpStataus = require("../Utils/httpStatusText");
 
 // Use factory methods for standard CRUD operations
 exports.getAllFavorites = factory.getAll(Favorite);
