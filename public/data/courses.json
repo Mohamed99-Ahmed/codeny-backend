@@ -1,0 +1,246 @@
+[
+
+  {
+    "name": "HTML كامل",
+    "link": "https://www.youtube.com/watch?v=6QAELgirvjs&list=PLDoPjvoNmBAw_t_XWUFbBX-c9MafPk9ji",
+    "category": "frontend",
+    "language": "عربي",
+    "description": "دورة شاملة لتعلم HTML5 من الصفر حتى الاحتراف مع التطبيقات العملية",
+    "imageCover": "https://i.ytimg.com/vi/6QAELgirvjs/hqdefault.jpg",
+    "payed": false
+  },
+  {
+    "name": "CSS Master",
+    "link": "https://www.youtube.com/playlist?list=PLDoPjvoNmBAzjsz06gkzlSrlev53MGIKe",
+    "category": "frontend",
+    "language": "عربي",
+    "description": "دورة CSS كاملة من الصفر مع مشاريع تطبيقية وشرح احترافي",
+    "imageCover": "https://i.ytimg.com/vi/X1ulCwyhCVM/hqdefault.jpg",
+    "payed": false
+  },
+  {
+    "name": "JS Pro",
+    "link": "https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced",
+    "category": "frontend",
+    "language": "ُEnglish",
+    "description": "Complete JavaScript course with modern ES6+ features and real projects",
+    "imageCover": "https://img-c.udemycdn.com/course/480x270/2508942_11d3_3.jpg",
+    "payed": true
+  },
+  {
+    "name": "React Master",
+    "link": "https://www.youtube.com/playlist?list=PLtFbQRDJ11kEjXWZmwkOV-vfXmrEEsuEW",
+    "category": "frontend",
+    "language": "عربي",
+    "description": "دورة React.js الشاملة مع هوكس وريدكس وتطبيقات عملية",
+    "imageCover": "https://i.ytimg.com/vi/LgB3j2y1b-4/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLByPtaTasHyyknRWbAN-8eJ9XTfLQ",
+    "payed": false
+  },
+  {
+    "name": "Node.js Pro",
+    "link": "https://www.udemy.com/course/nodejs-express-mongodb-bootcamp",
+    "category": "backend",
+    "language": "ُEnglish",
+    "description": "Complete Node.js, Express, MongoDB course with authentication and real projects",
+    "imageCover": "",
+    "payed": true
+  },
+  {
+    "name": "PHP Basic",
+    "link": "https://www.youtube.com/playlist?list=PLDoPjvoNmBAy41u35AqJUrI-H83DObUDq",
+    "category": "backend",
+    "language": "عربي",
+    "description": "دورة PHP الأساسية للمبتدئين مع تطبيقات عملية",
+    "imageCover": "https://i.ytimg.com/vi/xcg9qq6SZ0w/hqdefault.jpg",
+    "payed": false
+  },
+  {
+    "name": "MERN Stack",
+    "link": "https://www.udemy.com/course/mern-stack-front-to-back",
+    "category": "fullstack",
+    "language": "ُEnglish",
+    "description": "Build full stack applications with MongoDB, Express, React, and Node.js",
+    "imageCover": "https://img-c.udemycdn.com/course/480x270/2640372_5b44_5.jpg",
+    "payed": true
+  },
+  {
+    "name": "Unity Game",
+    "link": "https://www.udemy.com/course/unitycourse",
+    "category": "game",
+    "language": "ُEnglish",
+    "description": "Complete C# Unity Game Developer 2D course with practical projects",
+    "imageCover": "https://img-c.udemycdn.com/course/480x270/258316_55e9_8.jpg",
+    "payed": true
+  },
+  {
+    "name": "Python Pro",
+    "link": "https://www.youtube.com/playlist?list=PLDoPjvoNmBAyE_gei5d18qkfIe-Z8mocs",
+    "category": "backend",
+    "language": "عربي",
+    "description": "دورة Python متكاملة للمبتدئين مع مشاريع تطبيقية",
+    "imageCover": "https://i.ytimg.com/vi/mvZHDpCHphk/hqdefault.jpg",
+    "payed": false
+  },
+  {
+    "name": "Vue 3 Master",
+    "link": "https://www.udemy.com/course/vuejs-2-the-complete-guide",
+    "category": "frontend",
+    "language": "ُEnglish",
+    "description": "Complete Vue.js 3 course with Composition API and real projects",
+    "imageCover": "https://img-c.udemycdn.com/course/480x270/995016_ebf4_3.jpg",
+    "payed": true
+  },
+  {
+    "name": "Laravel Pro",
+    "link": "https://www.youtube.com/playlist?list=PLDoPjvoNmBAy_mAhY0x8cHf8oSGPKsEKP",
+    "category": "backend",
+    "language": "عربي",
+    "description": "دورة Laravel متقدمة مع أفضل الممارسات ومشاريع حقيقية",
+    "imageCover": "https://i.ytimg.com/vi/bXjRQM_VK_I/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLD4EwaSCBlSfkIAITCRbcpHClzZ2g",
+    "payed": false
+  },
+  {
+    "name": "AWS Cloud",
+    "link": "https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03",
+    "category": "AWS",
+    "language": "ُEnglish",
+    "description": "Complete AWS Certified Solutions Architect course with practice exams",
+    "imageCover": "",
+    "payed": true
+  },
+  {
+    "name": "Angular 16",
+    "link": "https://www.udemy.com/course/the-complete-guide-to-angular-2",
+    "category": "frontend",
+    "language": "ُEnglish",
+    "description": "Complete Angular course with TypeScript and real-world applications",
+    "imageCover": "https://img-c.udemycdn.com/course/480x270/756150_c033_2.jpg",
+    "payed": true
+  },
+  {
+    "name": "Git Master",
+    "link": "https://www.youtube.com/playlist?list=PLDoPjvoNmBAw4eOj58MZPakHjaO3frVMF",
+    "category": "other",
+    "language": "عربي",
+    "description": "دورة Git & GitHub الشاملة للمبتدئين مع أمثلة عملية",
+    "imageCover": "https://i.ytimg.com/vi/Q6G-J54vgKc/hqdefault.jpg",
+    "payed": false
+  },
+  {
+    "name": "Docker Pro",
+    "link": "https://www.udemy.com/course/docker-kubernetes-the-practical-guide",
+    "category": "other",
+    "language": "ُEnglish",
+    "description": "Complete Docker & Kubernetes course with practical examples",
+    "imageCover": "https://img-c.udemycdn.com/course/480x270/3490000_d298_2.jpg",
+    "payed": true
+  },
+  {
+    "name": "Next.js Pro",
+    "link": "https://www.udemy.com/course/nextjs-react-the-complete-guide",
+    "category": "fullstack",
+    "language": "ُEnglish",
+    "description": "Complete Next.js & React course with SSR and full-stack projects",
+    "imageCover": "https://img-c.udemycdn.com/course/480x270/3873464_403c.jpg",
+    "payed": true
+  },
+  {
+    "name": "SQL Basic",
+    "link": "https://www.youtube.com/playlist?list=PLDoPjvoNmBAz6DT8SzQ1CODJTH-NIA7R9",
+    "category": "backend",
+    "language": "عربي",
+    "description": "دورة SQL الأساسية للمبتدئين مع تطبيقات عملية",
+    "imageCover": "https://i.ytimg.com/vi/HXV3zeQKqGY/hqdefault.jpg",
+    "payed": false
+  },
+  {
+    "name": "React Native",
+    "link": "https://www.udemy.com/course/react-native-the-practical-guide",
+    "category": "mobile",
+    "language": "ُEnglish",
+    "description": "Build native mobile apps with React Native and practical projects",
+    "imageCover": "https://img-c.udemycdn.com/course/480x270/1436092_2024_4.jpg",
+    "payed": true
+  },
+  {
+    "name": "Flutter Pro",
+    "link": "https://www.udemy.com/course/flutter-bootcamp-with-dart",
+    "category": "mobile",
+    "language": "ُEnglish",
+    "description": "Complete Flutter & Dart course with real-world applications",
+    "imageCover": "",
+    "payed": true
+  },
+  {
+    "name": "TypeScript",
+    "link": "https://www.udemy.com/course/understanding-typescript",
+    "category": "frontend",
+    "language": "ُEnglish",
+    "description": "Complete TypeScript course with best practices and real projects",
+    "imageCover": "https://img-c.udemycdn.com/course/480x270/947098_02ec_2.jpg",
+    "payed": true
+  },
+  {
+    "name": "GraphQL API",
+    "link": "https://www.youtube.com/watch?v=5199E50O7SI",
+    "category": "backend",
+    "language": "عربي",
+    "description": "دورة GraphQL لبناء واجهات برمجة حديثة ومرنة",
+    "imageCover": "https://i.ytimg.com/vi/5199E50O7SI/hqdefault.jpg",
+    "payed": false
+  },
+  {
+    "name": "Linux Admin",
+    "link": "https://www.youtube.com/playlist?list=PLDoPjvoNmBAyE_gei5d18qkfIe-Z8mocs",
+    "category": "Linux",
+    "language": "عربي",
+    "description": "دورة إدارة أنظمة Linux للمبتدئين مع تطبيقات عملية",
+    "imageCover": "https://i.ytimg.com/vi/V1y-mbWM3B8/hqdefault.jpg",
+    "payed": false
+  },
+  {
+    "name": "DevOps Pro",
+    "link": "https://www.udemy.com/course/devops-with-docker-kubernetes-and-azure-devops",
+    "category": "DevOps",
+    "language": "ُEnglish",
+    "description": "Complete DevOps course with Docker, Kubernetes and Azure DevOps",
+    "imageCover": "",
+    "payed": true
+  },
+  {
+    "name": "Firebase DB",
+    "link": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9itfjle0ji1xOZ2cjRGY_WB",
+    "category": "backend",
+    "language": "عربي",
+    "description": "دورة Firebase لبناء تطبيقات الويب في الوقت الفعلي",
+    "imageCover": "https://i.ytimg.com/vi/4d-gIPGzmK4/hqdefault.jpg",
+    "payed": false
+  },
+  {
+    "name": "Ruby Rails",
+    "link": "https://www.udemy.com/course/the-complete-ruby-on-rails-developer-course",
+    "category": "fullstack",
+    "language": "ُEnglish",
+    "description": "Complete Ruby on Rails Developer course",
+    "imageCover": "https://img-c.udemycdn.com/course/480x270/947098_02ec_2.jpg",
+    "payed": true
+  },
+  {
+    "name": "Cyber Sec",
+    "link": "https://www.youtube.com/watch?v=lpa8uy4DyMo&list=PL9ooVrP1hQOGPQVeapGsJCktzIO4DtI4_",
+    "category": "Cyber Sec",
+    "language": "عربي",
+    "description": "دورة الأمن السيبراني للمبتدئين",
+    "imageCover": "https://i.ytimg.com/vi/lpa8uy4DyMo/hqdefault.jpg",
+    "payed": false
+  },
+  {
+    "name": "Data Science",
+    "link": "https://www.udemy.com/course/complete-data-science-bootcamp",
+    "category": "Data science",
+    "language": "ُEnglish",
+    "description": "Complete Data Science Bootcamp with Python",
+    "imageCover": "https://img-c.udemycdn.com/course/480x270/1754098_e0df_3.jpg",
+    "payed": true
+  }
+]

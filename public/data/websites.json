@@ -1,0 +1,205 @@
+[
+  {
+    "name": "Upwork",
+    "link": "https://www.upwork.com",
+    "description": "منصة عمل حر عالمية توفر فرصًا للمستقلين في مختلف المجالات مثل البرمجة، التصميم، الكتابة، وغيرها.",
+    "region": "English",
+    "imageCover": "https://www.upwork.com/favicon.ico"
+  },
+  {
+    "name": "Fiverr",
+    "link": "https://www.fiverr.com",
+    "description": "منصة خدمات مصغرة حيث يقدم المستقلون خدمات تبدأ من 5 دولارات.",
+    "region": "English",
+    "imageCover": "https://www.fiverr.com/favicon.ico"
+  },
+  {
+    "name": "Freelancer",
+    "link": "https://www.freelancer.com",
+    "description": "منصة عالمية للمستقلين توفر مشاريع في كافة التخصصات.",
+    "region": "English",
+    "imageCover": "https://www.freelancer.com/favicon.ico"
+  },
+  {
+    "name": "PeoplePerHour",
+    "link": "https://www.peopleperhour.com",
+    "description": "منصة بريطانية تقدم فرص عمل حر في التصميم، التسويق، البرمجة، وغيرها.",
+    "region": "English",
+    "imageCover": "https://www.peopleperhour.com/favicon.ico"
+  },
+  {
+    "name": "Guru",
+    "link": "https://www.guru.com",
+    "description": "منصة تتيح للمستقلين إنشاء ملفات شخصية والتقديم على مشاريع متنوعة.",
+    "region": "English",
+    "imageCover": "https://www.guru.com/favicon.ico"
+  },
+  {
+    "name": "Toptal",
+    "link": "https://www.toptal.com",
+    "description": "منصة للمحترفين فقط، يتم اختيار أفضل 3٪ من المستقلين حول العالم.",
+    "region": "English",
+    "imageCover": "https://www.toptal.com/favicon.ico"
+  },
+  {
+    "name": "Khamsat",
+    "link": "https://khamsat.com",
+    "description": "أكبر منصة عربية لبيع وشراء الخدمات المصغرة في مجالات متعددة.",
+    "region": "عربي",
+    "imageCover": "https://khamsat.hsoubcdn.com/assets/images/logo-73045c76e830509d4dbe03ea6172d22f047c708fed5435e93ffd47f80ee5ffa4.png"
+  },
+  {
+    "name": "Mostaql",
+    "link": "https://mostaql.com",
+    "description": "منصة عربية لعرض المشاريع والعمل الحر في جميع التخصصات.",
+    "region": "عربي",
+    "imageCover": "https://mostaql.hsoubcdn.com/public/assets/images/custom/mostaql-logo-white.svg?id=dc639dfc13cb096309795e9d84ddd15c"
+  },
+  {
+    "name": "Nabbesh",
+    "link": "https://www.nabbesh.com",
+    "description": "منصة عربية للمستقلين في الشرق الأوسط وشمال إفريقيا.",
+    "region": "عربي",
+    "imageCover": "https://www.nabbesh.com/favicon.ico"
+  },
+  {
+    "name": "Ureed",
+    "link": "https://www.ureed.com",
+    "description": "منصة عربية متخصصة في الترجمة، الكتابة، والتحرير الاحترافي.",
+    "region": "عربي",
+    "imageCover": "https://www.ureed.com/favicon.ico"
+  },
+  {
+    "name": "99designs",
+    "link": "https://99designs.com",
+    "description": "منصة متخصصة في التصميم الجرافيكي عبر مسابقات التصميم أو العمل المباشر.",
+    "region": "English",
+    "imageCover": "https://99designs.com/favicon.ico"
+  },
+  {
+    "name": "DesignCrowd",
+    "link": "https://www.designcrowd.com",
+    "description": "منصة للمصممين تنافس فيها على مشاريع تصميم مقدّمة من العملاء.",
+    "region": "English",
+    "imageCover": "https://www.designcrowd.com/favicon.ico"
+  },
+  {
+    "name": "TaskRabbit",
+    "link": "https://www.taskrabbit.com",
+    "description": "منصة للعمل الحر في المهام اليومية مثل التنظيف، النقل، والتركيب المنزلي.",
+    "region": "English",
+    "imageCover": "https://www.taskrabbit.com/favicon.ico"
+  },
+  {
+    "name": "SolidGigs",
+    "link": "https://solidgigs.com",
+    "description": "خدمة مدفوعة تقدم فرص عمل حر مختارة بعناية للمستقلين.",
+    "region": "English",
+    "imageCover": "https://solidgigs.com/favicon.ico"
+  },
+  {
+    "name": "We Work Remotely",
+    "link": "https://weworkremotely.com",
+    "description": "لوحة وظائف عن بُعد في مجالات التطوير، التصميم، التسويق، وغيرها.",
+    "region": "English",
+    "imageCover": "https://weworkremotely.com/favicon.ico"
+  },
+  {
+    "name": "Remotive",
+    "link": "https://remotive.io",
+    "description": "لوحة وظائف عن بُعد تضم فرصًا للمستقلين في البرمجة، التسويق، الدعم، وغيرها.",
+    "region": "English",
+    "imageCover": "https://remotive.io/favicon.ico"
+  },
+  {
+    "name": "Contra",
+    "link": "https://contra.com",
+    "description": "منصة حديثة تسمح للمستقلين بإنشاء بروفايل احترافي والتقديم على المشاريع بسهولة.",
+    "region": "English",
+    "imageCover": "https://contra.com/favicon.ico"
+  },
+  {
+    "name": "Kolabtree",
+    "link": "https://www.kolabtree.com",
+    "description": "منصة للمستقلين في المجالات العلمية، الطبية، والبحثية.",
+    "region": "English",
+    "imageCover": "https://www.kolabtree.com/favicon.ico"
+  },
+  {
+    "name": "Freelance Junior",
+    "link": "https://freelancejunior.com",
+    "description": "منصة فرنسية للمستقلين المبتدئين للعثور على أولى مشاريعهم.",
+    "region": "English",
+    "imageCover": "https://freelancejunior.com/favicon.ico"
+  },
+  {
+    "name": "Bepartner",
+    "link": "https://bepartner.com",
+    "description": "منصة تجمع الشركاء والمستقلين ورواد الأعمال معًا لتأسيس مشاريع ناشئة.",
+    "region": "English",
+    "imageCover": "https://bepartner.com/favicon.ico"
+  },
+  {
+    "name": "Freelancermap",
+    "link": "https://www.freelancermap.com",
+    "description": "منصة أوروبية للمستقلين في مجالات تكنولوجيا المعلومات والهندسة.",
+    "region": "English",
+    "imageCover": "https://www.freelancermap.com/favicon.ico"
+  },
+  {
+    "name": "DesignContest",
+    "link": "https://www.designcontest.com",
+    "description": "منصة مسابقات تصميم عالمية للمصممين المحترفين.",
+    "region": "English",
+    "imageCover": "https://www.designcontest.com/favicon.ico"
+  },
+  {
+    "name": "DesignBro",
+    "link": "https://www.designbro.com",
+    "description": "منصة تصميم عالية الجودة تربط العملاء بالمصممين المستقلين.",
+    "region": "English",
+    "imageCover": "https://www.designbro.com/favicon.ico"
+  },
+  {
+    "name": "Refrens",
+    "link": "https://www.refrens.com",
+    "description": "منصة هندية للمستقلين لتلقي مدفوعات، إنشاء فواتير، والحصول على عملاء.",
+    "region": "English",
+    "imageCover": "https://www.refrens.com/favicon.ico"
+  },
+  {
+    "name": "Truelancer",
+    "link": "https://www.truelancer.com",
+    "description": "منصة هندية توفر مشاريع في مجالات تطوير البرمجيات والتصميم والكتابة.",
+    "region": "English",
+    "imageCover": "https://www.truelancer.com/favicon.ico"
+  },
+  {
+    "name": "Workana",
+    "link": "https://www.workana.com",
+    "description": "منصة شهيرة في أمريكا اللاتينية تتيح فرص العمل الحر في البرمجة والتصميم.",
+    "region": "English",
+    "imageCover": "https://www.workana.com/favicon.ico"
+  },
+  {
+    "name": "Zeerk",
+    "link": "https://zeerk.com",
+    "description": "منصة خدمات مصغّرة بأسعار تبدأ من 3$، مناسبة للمستقلين المبتدئين.",
+    "region": "English",
+    "imageCover": "https://zeerk.com/favicon.ico"
+  },
+  {
+    "name": "Freelance.de",
+    "link": "https://www.freelance.de",
+    "description": "منصة ألمانية للمستقلين المتخصصين في التكنولوجيا والأعمال.",
+    "region": "English",
+    "imageCover": "https://www.freelance.de/favicon.ico"
+  },
+  {
+    "name": "Hirable",
+    "link": "https://www.hirable.com",
+    "description": "منصة تساعد المطورين على إيجاد وظائف حر بسهولة واحترافية.",
+    "region": "English",
+    "imageCover": "https://www.atom.com/public/images/logo.svg"
+  }
+]
