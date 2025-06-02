@@ -1,4 +1,3 @@
-// @ts-nocheck
 process.on("uncaughtException", (err) => {
   console.error("UNCAUGHT EXCEPTION! 💥 Shutting down...");
   console.error(err.name, err.message);

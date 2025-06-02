@@ -1,5 +1,4 @@
 /* eslint-disable no-undef */
-// @ts-nocheck
 const express = require("express");
 const app = express();
 // routes
@@ -12,7 +11,7 @@ const helperToolRoute = require("./routes/helperToolRoute");
 const favoriteRoute = require("./routes/favoriteRoute");
 // cors and Error
 const cors = require("cors");
-const ApiError = require("./Utils/apiError");
+const ApiError = require("./utils/apiError");
 const globalErrorHandler = require("./controllers/errorController");
 
 // security package

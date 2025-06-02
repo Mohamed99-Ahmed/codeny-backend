@@ -1,9 +1,9 @@
-const catchAsync = require("../Utils/catchAsync");
+const catchAsync = require("../utils/catchAsync");
 const { User } = require("../models/usersModel");
 const { promisify } = require("util");
 const jwt = require("jsonwebtoken");
-const ApiError = require("../Utils/apiError");
-const sendEmail = require("../Utils/email");
+const ApiError = require("../utils/apiError");
+const sendEmail = require("../utils/email");
 const crypto = require("crypto");
 // create Send Token
 const signToken = (id, name, role) => {
@@ -52,7 +52,7 @@ exports.signUp = catchAsync(async (req, res, next) => {
     phone: req.body.phone,
     role: req.body.role,
     linkedinLink: req.body.linkedinLink,
-    githubLink: req.body.githubLink
+    githubLink: req.body.githubLink,
   });
   // create send token with responese
   createSendToken(newUser, 201, res);
@@ -64,25 +64,30 @@ exports.login = catchAsync(async (req, res, next) => {
 
   // 1) check if email and password exist
   if (!email || !password) {
-    return next(new ApiError("يجب عليك كتابة البريد الإلكتروني وكلمة المرور", 400));
+    return next(
+      new ApiError("يجب عليك كتابة البريد الإلكتروني وكلمة المرور", 400)
+    );
   }
 
   // 2) check if user exists & password is correct
   const user = await User.findOne({ email }).select("+password");
 
   if (!user) {
-    return next(new ApiError("هذا الايميل غير مسجل من فضلك قم بانشاء حساب", 401));
+    return next(
+      new ApiError("هذا الايميل غير مسجل من فضلك قم بانشاء حساب", 401)
+    );
   }
 
   const comparedPass = await user.correctPassword(password, user.password);
   if (!comparedPass) {
-    return next(new ApiError("البريد الإلكتروني أو كلمة المرور غير صحيحة", 401));
+    return next(
+      new ApiError("البريد الإلكتروني أو كلمة المرور غير صحيحة", 401)
+    );
   }
 
   // 3) if everything ok, send token
   createSendToken(user, 200, res);
 });
-
 
 // protect Route
 exports.protect = catchAsync(async (req, res, next) => {
@@ -111,11 +116,18 @@ exports.protect = catchAsync(async (req, res, next) => {
   const currentUser = await User.findById(decode.id);
 
   if (!currentUser) {
-    return next(new ApiError("المستخدم الذي ينتمي إلى هذا الرمز غير موجود", 401));
+    return next(
+      new ApiError("المستخدم الذي ينتمي إلى هذا الرمز غير موجود", 401)
+    );
   }
   // check if user change password
   if (currentUser.changePasswordAfter(decode.iat)) {
-    return next(new ApiError("تغيير كلمة المرور للمستخدم يرجى تسجيل الدخول مرة أخرى تم", 404));
+    return next(
+      new ApiError(
+        "تغيير كلمة المرور للمستخدم يرجى تسجيل الدخول مرة أخرى تم",
+        404
+      )
+    );
   }
   // if every things is right go to next middleware(Route)
   req.user = currentUser;
@@ -142,7 +154,9 @@ exports.forgetPassword = catchAsync(async (req, res, next) => {
   // get user base on email
   const user = await User.findOne({ email: req.body.email });
   if (!user) {
-    return next(new ApiError("لا يوجد مستخدم بهذا عنوان البريد الإلكتروني", 404));
+    return next(
+      new ApiError("لا يوجد مستخدم بهذا عنوان البريد الإلكتروني", 404)
+    );
   }
   // generate random resetToken with no validate before save becase many of input require like (pass,...)
   const resetToken = user.createPasswordResetToken(); // this function that create token and save it in database
@@ -152,10 +166,10 @@ exports.forgetPassword = catchAsync(async (req, res, next) => {
   const resetURL = `${req.protocol}://${req.get(
     "host"
   )}/users/resetPassword/${resetToken}`;
-  
+
   // الرسالة النصية العادية
   const message = `هل نسيت كلمة المرور؟ أعد تعيينها باستخدام هذا الرمز، ثم اكتب كلمة المرور الجديدة وتأكيدها: ${resetToken}`;
-  
+
   // HTML رسالة بتنسيق
   const htmlMessage = `
     <div style="font-family: Arial, sans-serif; direction: rtl; text-align: right; padding: 20px; color: #333;">
@@ -188,7 +202,9 @@ exports.forgetPassword = catchAsync(async (req, res, next) => {
     await user.save({ validateBeforeSave: false });
 
     return next(
-      new ApiError("حدث خطأ أثناء إرسال البريد الإلكتروني. حاول مرة أخرى لاحقًا!"),
+      new ApiError(
+        "حدث خطأ أثناء إرسال البريد الإلكتروني. حاول مرة أخرى لاحقًا!"
+      ),
       500
     );
   }
@@ -219,7 +235,8 @@ exports.resetPassword = catchAsync(async (req, res, next) => {
   signToken(user._id, user.name, user.role); // create new token to update token
   res.status(200).json({
     status: "success",
-    message: "لقد نجحت في تغيير كلمة المرور الخاصة بك ويمكنك تسجيل الدخول مرة أخرى",
+    message:
+      "لقد نجحت في تغيير كلمة المرور الخاصة بك ويمكنك تسجيل الدخول مرة أخرى",
   });
 });
 
