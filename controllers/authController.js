@@ -3,7 +3,7 @@ const { User } = require("../models/usersModel");
 const { promisify } = require("util");
 const jwt = require("jsonwebtoken");
 const ApiError = require("../Utils/apiError");
-const sendEmail = require("../utils/email");
+const sendEmail = require("../Utils/email");
 const crypto = require("crypto");
 // create Send Token
 const signToken = (id, name, role) => {
