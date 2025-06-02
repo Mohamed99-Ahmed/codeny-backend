@@ -1,6 +1,6 @@
 // getBurgers from database
-const apiFeatures = require("../utils/apiFeatures");
 const catchAsync = require("../utils/catchAsync");
+const apiFeatures = require("../utils/apiFeatures");
 const ApiError = require("../utils/apiError");
 const httpStataus = require("../utils/httpStatusText");
 const multer = require("multer");
